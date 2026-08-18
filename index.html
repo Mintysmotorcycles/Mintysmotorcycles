@@ -3,227 +3,115 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mintys Motorcycles | Koh Samui Scooter Rental</title>
-
+    <meta name="description" content="Mintys Motorcycles — premium scooter rental on Koh Samui with free island-wide delivery, helmets provided and 24/7 service.">
+    <title>Mintys Motorcycles | Koh Samui</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<header class="hero">
-
+<header class="hero" id="home">
     <nav class="navbar">
-
-        <div class="logo">
-            <img src="images/logo.png" alt="Mintys Motorcycles Logo">
-        </div>
-
-        <a href="https://wa.me/66644310975" class="book-btn">
-            Book on WhatsApp
+        <a class="brand" href="#home" aria-label="Mintys Motorcycles home">
+            <img src="images/logo.png" alt="Mintys Motorcycles">
         </a>
-
+        <div class="nav-links">
+            <a href="#bikes">Bikes</a>
+            <a href="#why">Why Mintys</a>
+            <a href="#island">Koh Samui</a>
+            <a href="#booking">How It Works</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <a class="nav-cta" href="https://wa.me/66644310975" target="_blank" rel="noopener">WhatsApp <span>+66 64 431 0975</span></a>
     </nav>
 
+    <div class="hero-overlay"></div>
     <div class="hero-content">
-
-        <h1>Explore Koh Samui on Two Wheels</h1>
-
-        <p>
-            Reliable Honda Click & Honda PCX rentals with
-            Free Island-Wide Delivery.
-        </p>
-
-        <a href="https://wa.me/66644310975" class="hero-button">
-            Book Your Bike
-        </a>
-
+        <span class="eyebrow">KOH SAMUI MOTORCYCLE RENTAL</span>
+        <h1>Explore Koh Samui<br><em>on Two Wheels.</em></h1>
+        <p>Reliable Honda scooters, free island-wide delivery, helmets provided and open 24/7.</p>
+        <div class="hero-actions">
+            <a class="btn btn-primary" href="https://wa.me/66644310975" target="_blank" rel="noopener">Book on WhatsApp</a>
+            <a class="btn btn-outline" href="#bikes">View Our Bikes</a>
+        </div>
+        <div class="hero-trust"><span>✓ Free delivery</span><span>✓ Helmets provided</span><span>✓ Open 24/7</span></div>
     </div>
-
 </header>
 
-<section class="features">
+<main>
+    <section class="trust-bar" id="why">
+        <div class="trust-item"><div class="trust-icon">🚚</div><div><strong>FREE ISLAND-WIDE DELIVERY</strong><small>Delivered to your hotel, villa or accommodation</small></div></div>
+        <div class="trust-item"><div class="trust-icon">🪖</div><div><strong>HELMETS PROVIDED</strong><small>Ready to ride from the moment we arrive</small></div></div>
+        <div class="trust-item"><div class="trust-icon">🕐</div><div><strong>OPEN 24/7</strong><small>We're here whenever you need us</small></div></div>
+        <div class="trust-item"><div class="trust-icon">🌴</div><div><strong>100% KOH SAMUI</strong><small>Local service from people who know the island</small></div></div>
+    </section>
 
-    \<section class="features">
-
-    <div class="section-heading">
-        <span>WHY MINTYS</span>
-        <h2>Your Bike. Your Island. Your Adventure.</h2>
-        <p>
-            Everything you need for an easy, stress-free scooter rental
-            experience on Koh Samui.
-        </p>
-    </div>
-
-    <div class="feature-grid">
-
-        <div class="feature">
-            <div class="feature-icon">🚚</div>
-            <h3>Free Island-Wide Delivery</h3>
-            <p>
-                We bring your bike directly to your hotel,
-                villa or accommodation anywhere on Koh Samui.
-            </p>
+    <section class="section fleet" id="bikes">
+        <div class="section-heading">
+            <span class="eyebrow dark">OUR PREMIUM BIKES</span>
+            <h2>Ride in Comfort &amp; Style</h2>
+            <p>Choose the bike that suits your island adventure and book directly with us.</p>
         </div>
 
-        <div class="feature">
-            <div class="feature-icon">🪖</div>
-            <h3>Helmets Provided</h3>
-            <p>
-                Helmets are provided with your rental so
-                you're ready to get on the road.
-            </p>
+        <div class="bike-grid">
+            <article class="bike-card">
+                <div class="bike-photo"><img src="images/click.png" alt="Honda Click rental on Koh Samui"></div>
+                <div class="bike-info">
+                    <div><span class="tag">POPULAR CHOICE</span><h3>Honda Click</h3><p>Easy, economical and perfect for beach days and exploring.</p></div>
+                    <div class="prices">
+                        <div><span>DAILY</span><strong>฿350</strong></div>
+                        <div><span>WEEKLY</span><strong>฿2,100</strong></div>
+                        <div><span>MONTHLY</span><strong>฿6,000</strong></div>
+                    </div>
+                    <div class="card-footer"><span>✓ Helmets Provided<br>✓ Free Island-Wide Delivery</span><a href="https://wa.me/66644310975?text=Hi%20Mintys%20Motorcycles%2C%20I'd%20like%20to%20book%20a%20Honda%20Click." target="_blank" rel="noopener">Book This Bike</a></div>
+                </div>
+            </article>
+
+            <article class="bike-card featured">
+                <div class="bike-photo"><img src="images/pcx.png" alt="Honda PCX rental on Koh Samui"></div>
+                <div class="bike-info">
+                    <div><span class="tag premium">PREMIUM CHOICE</span><h3>Honda PCX</h3><p>More comfort, more space and a smoother ride for longer island days.</p></div>
+                    <div class="prices">
+                        <div><span>DAILY</span><strong>฿450</strong></div>
+                        <div><span>WEEKLY</span><strong class="highlight">฿2,500</strong></div>
+                        <div><span>MONTHLY</span><strong>฿9,000</strong></div>
+                    </div>
+                    <div class="card-footer"><span>✓ Helmets Provided<br>✓ Free Island-Wide Delivery</span><a href="https://wa.me/66644310975?text=Hi%20Mintys%20Motorcycles%2C%20I'd%20like%20to%20book%20a%20Honda%20PCX." target="_blank" rel="noopener">Book This Bike</a></div>
+                </div>
+            </article>
         </div>
 
-        <div class="feature">
-            <div class="feature-icon">🕐</div>
-            <h3>Open 24/7</h3>
-            <p>
-                Need a bike early, late or somewhere in between?
-                We're available around the clock.
-            </p>
+        <div class="mini-benefits"><span>✓ No hidden fees</span><span>✓ Well maintained</span><span>✓ Free island delivery</span><span>✓ Open 24/7</span></div>
+    </section>
+
+    <section class="island-section" id="island">
+        <div class="island-copy"><span class="eyebrow dark">EXPLORE KOH SAMUI</span><h2>Your Island Adventure Awaits</h2><p>From quiet beaches and jungle viewpoints to waterfalls, temples and unforgettable sunsets — your bike is the easiest way to see more of Koh Samui.</p><a class="text-link" href="https://wa.me/66644310975" target="_blank" rel="noopener">Start your adventure →</a></div>
+        <div class="island-visual"><div class="island-image main"><img src="images/hero.jpg" alt="Tropical Koh Samui coastline"></div><div class="island-image small"><img src="images/hero.jpg" alt="Koh Samui tropical scenery"></div></div>
+    </section>
+
+    <section class="section booking" id="booking">
+        <div class="section-heading"><span class="eyebrow dark">EASY BOOKING</span><h2>We Make It Simple</h2><p>Tell us your dates and where you're staying. We'll take care of the rest.</p></div>
+        <div class="steps">
+            <div class="step"><span>01</span><div><h3>WhatsApp Us</h3><p>Message us with your dates, bike choice and location.</p></div></div>
+            <div class="step"><span>02</span><div><h3>Confirm Booking</h3><p>We'll confirm availability and arrange the details with you.</p></div></div>
+            <div class="step"><span>03</span><div><h3>We Deliver To You</h3><p>Your bike is delivered anywhere on Koh Samui.</p></div></div>
         </div>
+    </section>
 
-        <div class="feature">
-            <div class="feature-icon">🌴</div>
-            <h3>Koh Samui Delivery</h3>
-            <p>
-                Tell us where you're staying and we'll arrange
-                convenient island-wide delivery.
-            </p>
-        </div>
+    <section class="contact-section" id="contact">
+        <div><span class="eyebrow dark">READY TO RIDE?</span><h2>Let's Get You On The Road.</h2><p>Book by WhatsApp or email and start exploring Koh Samui your way.</p></div>
+        <div class="contact-actions"><a class="btn btn-primary" href="https://wa.me/66644310975" target="_blank" rel="noopener">WhatsApp +66 64 431 0975</a><a class="btn btn-dark" href="mailto:bookings@mintysmotorcycles.com">bookings@mintysmotorcycles.com</a></div>
+    </section>
+</main>
 
+<footer>
+    <div class="footer-grid">
+        <div class="footer-brand"><img src="images/logo.png" alt="Mintys Motorcycles"><p>Premium motorcycle rental in Koh Samui.<br>Free island-wide delivery · Helmets provided · Open 24/7.</p></div>
+        <div><h4>QUICK LINKS</h4><a href="#bikes">Bikes</a><a href="#booking">How It Works</a><a href="#why">Why Mintys</a><a href="#contact">Contact</a></div>
+        <div><h4>BOOKINGS</h4><a href="https://wa.me/66644310975" target="_blank" rel="noopener">WhatsApp</a><a href="mailto:bookings@mintysmotorcycles.com">Email Bookings</a><a href="#bikes">Pricing</a></div>
+        <div><h4>CONTACT</h4><span>+66 64 431 0975</span><span>bookings@mintysmotorcycles.com</span><span>Koh Samui, Thailand</span><span>Open 24/7</span></div>
     </div>
+    <div class="copyright">© 2026 Mintys Motorcycles. All rights reserved.</div>
+</footer>
 
-</section>
-
-</section>
-
-<section class="pricing">
-
-<<section class="pricing" id="bikes">
-
-    <div class="section-heading">
-        <span>OUR FLEET</span>
-        <h2>Choose Your Bike</h2>
-        <p>
-            Reliable Honda scooters, ready to explore Koh Samui.
-            Choose your bike and book directly with us on WhatsApp.
-        </p>
-    </div>
-
-    <div class="bike-grid">
-
-        <!-- HONDA CLICK -->
-
-        <article class="bike-card">
-
-            <div class="bike-image">
-                <img src="images/click.png" alt="Honda Click scooter rental on Koh Samui">
-            </div>
-
-            <div class="bike-content">
-
-                <span class="bike-tag">POPULAR CHOICE</span>
-
-                <h3>Honda Click</h3>
-
-                <p class="bike-description">
-                    Easy to ride, economical and perfect for exploring
-                    Koh Samui's beaches, villages and viewpoints.
-                </p>
-
-                <div class="price-list">
-
-                    <div class="price-row">
-                        <span>1 Day</span>
-                        <strong>฿350</strong>
-                    </div>
-
-                    <div class="price-row">
-                        <span>1 Week</span>
-                        <strong>฿2,100</strong>
-                    </div>
-
-                    <div class="price-row">
-                        <span>1 Month</span>
-                        <strong>฿6,000</strong>
-                    </div>
-
-                </div>
-
-                <div class="bike-includes">
-                    ✓ Helmets Provided<br>
-                    ✓ Free Island-Wide Delivery
-                </div>
-
-                <a
-                    class="bike-book"
-                    href="https://wa.me/66644310975?text=Hi%20Mintys%20Motorcycles%2C%20I'd%20like%20to%20book%20a%20Honda%20Click."
-                    target="_blank"
-                >
-                    Book Honda Click
-                </a>
-
-            </div>
-
-        </article>
-
-
-        <!-- HONDA PCX -->
-
-        <article class="bike-card">
-
-            <div class="bike-image">
-                <img src="images/pcx.png" alt="Honda PCX scooter rental on Koh Samui">
-            </div>
-
-            <div class="bike-content">
-
-                <span class="bike-tag premium">PREMIUM CHOICE</span>
-
-                <h3>Honda PCX</h3>
-
-                <p class="bike-description">
-                    More comfort, more space and a smoother ride —
-                    ideal for longer days exploring the island.
-                </p>
-
-                <div class="price-list">
-
-                    <div class="price-row">
-                        <span>1 Day</span>
-                        <strong>฿450</strong>
-                    </div>
-
-                    <div class="price-row">
-                        <span>1 Week</span>
-                        <strong>฿2,500</strong>
-                    </div>
-
-                    <div class="price-row">
-                        <span>1 Month</span>
-                        <strong>฿9,000</strong>
-                    </div>
-
-                </div>
-
-                <div class="bike-includes">
-                    ✓ Helmets Provided<br>
-                    ✓ Free Island-Wide Delivery
-                </div>
-
-                <a
-                    class="bike-book"
-                    href="https://wa.me/66644310975?text=Hi%20Mintys%20Motorcycles%2C%20I'd%20like%20to%20book%20a%20Honda%20PCX."
-                    target="_blank"
-                >
-                    Book Honda PCX
-                </a>
-
-            </div>
-
-        </article>
-
-    </div>
-
-</section>
+</body>
+</html>
